@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   @apply bg-[#fafafa] text-black;
+}
+
+.dark body {
+   @apply bg-black text-white;
+}
+
+@layer base {
+  :root {
+
+      --radius: 0.5rem
+   }
+}
