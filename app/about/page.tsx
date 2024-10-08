@@ -23,10 +23,9 @@ const Page = () => {
             <p className="text-[#9898a0] mt-2">
                {`I regularly use libraries like ethers.js and web3.js to integrate blockchain functionality into my applications, providing seamless connections with various wallets and enabling users to interact with the blockchain effortlessly.`}
             </p>
-
             <div className="flex items-center mt-12 space-x-4">
                <a
-                  href="https://www.linkedin.com/in/your-profile" // Replace with your LinkedIn URL
+                  href="https://www.linkedin.com/in/onah-sunday-0b783921a/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-[#9898a0] hover:text-[#046af8] dark:text-gray-400 dark:hover:text-[#046af8]"
@@ -34,7 +33,7 @@ const Page = () => {
                   <Mail className="mr-2" /> LinkedIn
                </a>
                <a
-                  href="https://twitter.com/yourprofile" // Replace with your Twitter URL
+                  href="https://twitter.com/xhunkleph"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center text-[#9898a0] hover:text-[#046af8] dark:text-gray-400 dark:hover:text-[#046af8]"
@@ -42,14 +41,13 @@ const Page = () => {
                   <Twitter className="mr-2" /> Twitter
                </a>
                <a
-                  href="mailto:your-email@example.com" // Replace with your email
+                  href="mailto:sundayonah94@gmail.com"
                   className="flex items-center text-[#9898a0] hover:text-[#046af8] dark:text-gray-400 dark:hover:text-[#046af8]"
                >
                   <Mail className="mr-2" /> Email
                </a>
             </div>
          </div>
-         {/* <div>2</div> */}
       </div>
    );
 };

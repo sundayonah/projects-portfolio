@@ -2,26 +2,34 @@ export const projects = [
    {
       id: 'ytiuy9',
       name: 'wogaa',
-      img: 'https://images.com/images/',
-      link: 'https://images.com/images/',
+      img: '/assets/wogaa.png',
+      link: 'https://wogaa.org',
+      desc:
+         "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
    },
    {
       id: 'ytiuyyu9',
-      name: 'wogaa',
-      img: 'https://images.com/images/',
-      link: 'https://images.com/images/',
+      name: 'Shibase',
+      img: '/assets/shibaseCover.png',
+      link: 'https://shibase-inu.vercel.app/',
+      desc:
+         "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
    },
    {
       id: 'ytitrtuy9',
-      name: 'wogaa',
-      img: 'https://images.com/images/',
-      link: 'https://images.com/images/',
+      name: 'Deel With Me',
+      img: '/assets/deelwithme.png',
+      link: 'https://deel-with-me-landingpage.vercel.app/',
+      desc:
+         "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
    },
    {
       id: 'ytiuqqy9',
-      name: 'wogaa',
-      img: 'https://images.com/images/',
-      link: 'https://images.com/images/',
+      name: 'Trello Clone',
+      img: '/assets/trelloclone.png',
+      link: 'https://trello-2-0-app.vercel.app/',
+      desc:
+         "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
    },
 ];
 
