@@ -5,6 +5,7 @@ import { navMenu } from '@/components/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
+import Image from 'next/image';
 
 const Header = () => {
    const { theme, setTheme } = useTheme();
@@ -17,8 +18,15 @@ const Header = () => {
    if (!mounted) return null;
 
    return (
-      <div className="flex justify-between items-center pt-6 px-8">
-         <div></div>
+      <div className="flex justify-between items-center pt-6 px-8 mb-24">
+         <Link href="/">
+            <Image
+               src="/assets/my-avatar.webp"
+               alt="logo"
+               width={40}
+               height={30}
+            />
+         </Link>
          <div className="flex space-x-6 rounded-full p-2 px-6 dark:bg-[#252529] bg-white shadow-xl">
             {navMenu.map((n) => (
                <Link
