@@ -6,10 +6,12 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
    const { theme, setTheme } = useTheme();
    const [mounted, setMounted] = useState(false);
+   const pathname = usePathname();
 
    useEffect(() => {
       setMounted(true);
@@ -18,7 +20,8 @@ const Header = () => {
    if (!mounted) return null;
 
    return (
-      <div className="flex justify-between items-center pt-6 px-8 mb-24">
+      // <div className="fixed  w-full z-50  flex justify-between items-center pt-6 px-8 mb-24">
+      <div className=" flex justify-between items-center pt-6 px-8 mb-24">
          <Link href="/">
             <Image
                src="/assets/my-avatar.webp"
@@ -32,7 +35,11 @@ const Header = () => {
                <Link
                   key={n.id}
                   href={n.link}
-                  className=" text-black dark:text-[#d6d6d9]"
+                  className={`text-black dark:text-[#d6d6d9] hover:text-[#046af8] dark:hover:text-[#046af8] ${
+                     pathname === n.link
+                        ? 'text-[#046af8] dark:text-[#046af8]'
+                        : ''
+                  }`}
                >
                   {n.name}
                </Link>

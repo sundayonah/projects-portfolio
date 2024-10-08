@@ -7,6 +7,10 @@ export default function Home() {
       //    <h1 className="text-black dark:text-white">PORTFOLIO</h1>
       // </div>
 
-      <div className=""></div>
+      <div className="mt-24">
+         <h1>
+            <h1 className="text-black dark:text-white">PORTFOLIO</h1>{' '}
+         </h1>
+      </div>
    );
 }
