@@ -31,6 +31,14 @@ export const projects = [
       desc:
          "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
    },
+   {
+      id: 'ytiuqqy9',
+      name: 'Trello Clone',
+      img: '/assets/githubusers.png',
+      link: 'https://githubuserss.vercel.app/',
+      desc:
+         "These are the most recent projects I've worked on, however I've worked on many throughout the years. Please get in touch with me if something catches your attention.",
+   },
 ];
 
 export const navMenu = [

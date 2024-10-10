@@ -4,7 +4,7 @@ import { useTheme } from 'next-themes';
 import { navMenu } from '@/components/data';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { Moon, Sun, Menu, X, ArrowBigDown } from 'lucide-react';
+import { Moon, Sun, X, ArrowBigDown } from 'lucide-react';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 
